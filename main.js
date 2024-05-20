@@ -9,5 +9,11 @@ const swiper = new Swiper('.mySwiper', {
       el: '.swiper-pagination',
       clickable: true,
     },
+
+    breakpoints: {
+      393:{
+        slidesPerView: 2,
+      },
+    },
   });
 
