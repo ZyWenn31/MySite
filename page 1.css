@@ -919,6 +919,7 @@ footer{
     margin-top: 80px;
     gap: 10px;
 }
+
 .swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom,-6px);
     /* top:var(--swiper-pagination-top,auto); */
@@ -964,6 +965,10 @@ footer{
     border: 1px solid rgb(0, 0, 0);
 }
 
+
+.swiper-pagination-bullet:focus{
+    background-color: #000000;
+}
 
 
 #r5:checked ~  .s5{
