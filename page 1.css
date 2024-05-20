@@ -1384,3 +1384,13 @@ input:checked{
     font-size: 1.125em;
     opacity: 0.18;
   }
+
+
+
+/*Адаптивная верстка  393x852*/
+
+@media (max-width: 393px){
+    .page2{
+        width: 393px;
+    }
+}
