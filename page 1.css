@@ -1457,7 +1457,7 @@ input:checked{
       
     } 
     .main-content article p{
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .main-content{
@@ -1466,8 +1466,26 @@ input:checked{
         align-items: center;
     }
 
+    .conatiner{
+        justify-content: center;
+        gap: 100px;
+        margin-top: 70px;
+    }
+
     .select-container{
-        width: 45%;
+        width: 40%;
+        height: 120px;
+    }
+
+    .select-box{
+        font-size: 3em;
+        padding: 30px 40px;
+    }
+
+    .icon-container img{
+        width: 55px;
+        margin-top: 50px;
+        margin-left: 60px;
     }
 
     .main-text{
@@ -1476,5 +1494,10 @@ input:checked{
 
     .main-text-verst{
         display: block;
+    }
+
+    aside .imge{
+        width: 1000px;
+        margin-top: 100px;
     }
 }
