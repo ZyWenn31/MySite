@@ -1444,7 +1444,7 @@ input:checked{
     }
 
     .center-text{
-        font-size: 2.5em;
+        font-size: 2.75em;
         color: black;
         gap: 80px;
         margin-bottom: -150px;
@@ -1646,7 +1646,7 @@ input:checked{
             .main-content4-verst li a{
                 text-decoration: none;
                 color: #FF7235;
-                font-size: 1.5em;
+                font-size: 3em;
                 transition: 0.3s;
             }
 
