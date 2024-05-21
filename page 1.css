@@ -436,35 +436,35 @@ footer{
     align-items: center;
 }
 
-     aside{
+    .main-content4 aside{
         display: flex;
         flex-direction: column;
         gap: 20px;
         margin-right: 42px;
     }
 
-         aside h{
+        .main-content4 aside h{
             line-height: 100px;
         }
 
-         aside p{
+        .main-content4 aside p{
             margin-top: 6px;
             font-weight: 400;
             font-size: 24px;
         }
 
-         aside li{
+        .main-content4 aside li{
             list-style-type: none;
         }
 
-            li a{
+            .main-content4 li a{
                 text-decoration: none;
                 color: #FF7235;
                 font-size: 1.5em;
                 transition: 0.3s;
             }
 
-             aside li a:hover{
+            .main-content4 aside li a:hover{
                 color: #11fe00;
             }
 
@@ -673,6 +673,7 @@ footer{
 .btn{
     transition: 0.2s;    
 }
+
     .btn svg path{
         transition: 0.2s;
     }
@@ -1620,6 +1621,40 @@ input:checked{
         margin-top: 80px;
         margin-bottom: 100px;
     }
+
+    .main-content4-verst aside{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 42px;
+    }
+
+        .main-content4-verst aside h{
+            line-height: 100px;
+        }
+
+        .main-content4-verst aside p{
+            margin-top: 6px;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+        .main-content4-verst aside li{
+            list-style-type: none;
+        }
+
+            .main-content4-verst li a{
+                text-decoration: none;
+                color: #FF7235;
+                font-size: 1.5em;
+                transition: 0.3s;
+            }
+
+            .main-content4-verst aside li a:hover{
+                color: #11fe00;
+            }
+
+    /*Страница 5 */
 
     .page5{
         height: auto;
