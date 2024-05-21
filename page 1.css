@@ -1477,6 +1477,10 @@ input:checked{
         height: 120px;
     }
 
+    option{
+        width: 100%;
+    }
+
     .select-box{
         font-size: 3em;
         padding: 30px 40px;
