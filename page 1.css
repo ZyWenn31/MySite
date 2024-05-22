@@ -1756,7 +1756,7 @@ input:checked{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        gap: 40px;
+        gap: 20px;
     }
     
     .first-swiper .card a h{
@@ -1770,19 +1770,19 @@ input:checked{
     .first-swiper .swiper-slide .card a .kart1{
         width: 60px;
         padding: 20px;
-        margin-top: -50px;
+       margin-top: -7px;
     }
 
     .first-swiper .swiper-slide .card a .kart2{
         width: 60px;
         padding: 20px;
-        margin-top: -50px;
+        margin-top: -7px;
     }
 
     .first-swiper .swiper-slide .card a .kart3{
         width: 60px;
         padding: 20px;
-        margin-top: -50px;
+        margin-top: -7px;
     }
 
     .first-swiper .swiper-slide .card a .strelka{
