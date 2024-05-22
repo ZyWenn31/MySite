@@ -1,16 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    /* outline: 4px solid green !important; */
+    outline: 4px solid green !important;
 }
 
-body{
+body{   
     font-family: "Hind Siliguri", sans-serif;
     font-weight: 400;
     font-size: 1em;
     /* display: flex;
     justify-content: center; */
-    
 }
 
 .razm{
@@ -23,6 +22,7 @@ body{
     /* margin-left: 2.5%; */
     /* border: 1px solid black; */
     /* margin-left: 150px; */
+
 }
 
 .page1{
@@ -516,6 +516,8 @@ footer{
     align-items: center;
 }
 
+
+
 .main-content6{
     width: 100%;
     display: flex;
@@ -611,6 +613,7 @@ footer{
 
     .card a .card-text h{
         font-size: 1.875em;
+        font-weight: 500;
         color: black;
     }
 
@@ -1381,8 +1384,8 @@ input:checked{
 
 .subsrcibe-input::placeholder {
     color: rgb(0, 0, 0);
-    font-size: 1.125em;
-    opacity: 0.18;
+    font-size: 1.2em;
+    font-weight: 500;
   }
 
 
@@ -1409,7 +1412,15 @@ input:checked{
     display: none;
 }
 
-@media (max-width: 394px){
+.low-cards-verst{
+    display: none;
+}
+
+.top-text-verst{
+    display: none;
+}
+
+@media (max-width: 393px){
     .no-verst nav ul{
         display: none; 
         /* justify-content: center;
@@ -1529,10 +1540,7 @@ input:checked{
     .page2{
         height: auto;
     }
-    .main_pg2 {
-       width: 1100px;
-       height: 800px;
-    }
+    
 
     .sponsors ul{
        align-items: center; 
@@ -1573,6 +1581,7 @@ input:checked{
     .main-content3-verst h{
         font-size: 7em;
         line-height: 110px;
+        text-align: center;
     }
 
     .main-content3-verst li a{
@@ -1690,4 +1699,102 @@ input:checked{
         margin-top: 80px;
         margin-bottom: 100px;
     }
+
+
+    /*Страница 6*/
+
+    .page6{
+        height: auto;
+    }
+
+    .main-content6 .top-text{
+        display: none;
+    }
+
+    .main-content6 .low-cards{
+        display: none;
+    }
+
+    .top-text-verst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top-text-verst h{
+        font-size: 8em;
+        line-height: 100px;
+    }
+
+    .top-text-verst p{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .main-content6 .low-cards-verst{
+        display: flex;
+        height: 600px;
+    }
+
+    .first-swiper{
+        width: 100%;
+    }
+
+    .first-swiper .swiper-wrapper{
+        display: flex;
+    }
+
+    .first-swiper .swiper-slide .card a{
+        width: 100%;
+        height: 1000px;
+    }
+
+
+    .first-swiper .card a{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .first-swiper .card a h{
+        font-size: 6em
+    }
+
+    .first-swiper .card a p{
+        font-size: 3em;
+    }
+
+    .first-swiper .swiper-slide .card a .kart1{
+        width: 60px;
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .first-swiper .swiper-slide .card a .kart2{
+        width: 60px;
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .first-swiper .swiper-slide .card a .kart3{
+        width: 60px;
+        padding: 20px;
+        margin-top: -50px;
+    }
+
+    .first-swiper .swiper-slide .card a .strelka{
+        opacity: 100%;
+        width: 60px;
+    }
+
+
+
+    /*Страница 7*/
+
+
+
+    
 }
