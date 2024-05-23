@@ -2,7 +2,7 @@ const swiper = new Swiper('.mySwiper', {
     loop: true,
     mousewheel: true,
     centeredSlide:true,
-    slidesPerView: 2.5,
+    slidesPerView: 2.2,
     spaceBetween: 30,
     pagination: {
       el: '.swiper-pagination',
