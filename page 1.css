@@ -1948,4 +1948,7 @@ input:checked{
         margin-top: 40px;
     }
 
+    .main-content8 .swiper-pagination{
+        visibility: hidden;
+    }
 }
