@@ -1424,6 +1424,14 @@ input:checked{
     display: none;
 }
 
+.PgAndBtn-verst{
+    display: none;
+}
+
+.text-pg9-verst{
+    display: none;
+}
+
 @media (max-width: 394px){
     .no-verst nav ul{
         display: none; 
@@ -1951,4 +1959,85 @@ input:checked{
     .main-content8 .swiper-pagination{
         visibility: hidden;
     }
+
+
+     /*Страница 9*/
+
+    .page9{
+        background-repeat: no-repeat repeat;
+        height: auto;
+    }
+
+.main-content9 .text-pg9{
+    display: none;
+}
+
+    .main-content9 .text-pg9-verst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 120px;
+        margin-top: 100px;
+    }
+
+    .main-content9 .text-pg9-verst h{
+        font-size: 8em;
+        color: white;
+    }
+
+    .main-content9 .text-pg9-verst p{
+        font-size: 3em;
+        color: white;
+        font-weight: 500;
+    }
+
+    .main-content9 .PgAndBtn{
+        display: none;
+    }
+
+    .PgAndBtn-verst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PgAndBtn-verst .imgs{
+        display: flex;
+    }
+
+    .PgAndBtn-verst .imgs img{
+        width: 700px;
+    }
+
+
+    .PgAndBtn-verst .select-container .icon-container svg path{
+        stroke: #ffffff;
+    }
+
+    .PgAndBtn-verst .select-container{
+        display: flex;
+        justify-content: flex-start;
+        width: 450px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .PgAndBtn-verst .select-container .select-box{
+        background-color: white;
+        color: #FF7235;
+        border: 1px solid #FF7235;
+    }
+
+    .PgAndBtn-verst .select-container .icon-container svg{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .PgAndBtn-verst .select-container .icon-container svg path{
+        stroke: #ff7235;
+    }
+
 }
