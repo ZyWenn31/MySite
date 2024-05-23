@@ -16,6 +16,14 @@ const swiper = new Swiper('.mySwiper', {
     slidesPerView: 1,
     pagination:{
       el: '.swiper-pagination',
+    },
+  });
+
+  new Swiper('.second-swiper', {
+    loop: false,
+    slidesPerView: 1,
+    scrollbar:{
+      el: '.swiper-scrollbar'
     }
-  })
+  });
 
