@@ -1759,6 +1759,7 @@ input:checked{
         display: flex;
     }
 
+
     .first-swiper .swiper-slide .card a{
         width: 100%;
         height: 1000px;
@@ -1875,7 +1876,7 @@ input:checked{
     }
 
     .plans-verst .swiper-slide .card-cost a .crd-smb>img{
-        margin-top: 50px;
+        margin-top: 150px;
     }
 
     .plans-verst .swiper-slide .card-cost a .crd-smb img{
@@ -1891,6 +1892,7 @@ input:checked{
 
     .plans-verst .swiper-slide .card-cost a .crd-smb .price .nomer-price p{
         font-size: 6em;
+        margin-left: 20px;
     }
 
     .plans-verst .swiper-slide .card-cost a .crd-smb .price p{
@@ -2163,6 +2165,10 @@ input:checked{
     .main-content10 .low-footer .links-corp a img{
         width: 40px;
         height: 40px;
+    }
+
+    .main-content10 .low-footer .links-corp{
+        margin-top: 15px;
     }
 
     .main-content10 .top-footer .newsleeter .over p{
