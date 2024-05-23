@@ -1908,5 +1908,44 @@ input:checked{
     }
 
 
+    /*Страница 8*/
+
+    .page8{
+        height: auto;
+    }
+
+    .main-content8>h{
+        font-size: 7.5em;
+        margin-top: 60px;
+    }
+
+    .main-content8 .swiper-bibl{
+        margin-bottom: 60px;
+    }
+
+    .main-content8 .swiper-slide .cart{
+        width: 600px;
+        height: 500px;
+        border: 2px solid rgba(0, 0, 0, 0.414);
+    }
+
+    .main-content8 .swiper-slide .cart p{
+        font-size: 2.3em;
+        /* margin-top: 20px; */
+    }
+
+    .main-content8 .swiper-slide .cart .top{
+        height: 20px;
+    }
+
+    .main-content8 .swiper-slide .cart img{
+        width: 80px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .main-content8 .swiper-slide .cart .who p{
+        margin-top: 40px;
+    }
 
 }

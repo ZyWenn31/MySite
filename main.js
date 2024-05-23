@@ -2,13 +2,22 @@ const swiper = new Swiper('.mySwiper', {
     loop: true,
     mousewheel: true,
     centeredSlide:true,
-    slidesPerView: 4,
-    spaceBetween: 1,
-
+    slidesPerView: 2.5,
+    spaceBetween: 30,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
+
+    breakpoints: {
+      394:{
+      loop: true,
+      mousewheel: true,
+      centeredSlide:true,
+      slidesPerView: 4,
+      spaceBetween: 1,
+      }
+    }
   });
 
   new Swiper('.first-swiper', {
